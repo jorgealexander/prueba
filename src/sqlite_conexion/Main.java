@@ -13,6 +13,7 @@ public class Main {
         fbc.insert("persona", " nombre, apellido ", " 'Marilyn' , 'Garcia' ");
         fbc.insert("persona", " nombre, apellido ", " 'Marcelo', 'Chamboneti' ");
         fbc.insert("persona", " nombre, apellido ", " 'Jorge', 'Valencia' ");
+        fbc.insert("persona", " nombre, apellido ", " 'Paola', 'Sarria' ");
         //Se imprimen los datos de la tabla
         System.out.println( fbc.select() );
         fbc.desconectar();
